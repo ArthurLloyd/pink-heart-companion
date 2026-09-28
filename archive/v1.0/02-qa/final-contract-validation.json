@@ -1,0 +1,160 @@
+{
+  "pass": true,
+  "contract": "running Codex Desktop V1",
+  "manifest": {
+    "id": "pink-heart-companion",
+    "displayName": "Pink Heart Companion",
+    "description": "A gentle pink-themed chibi companion for Codex Desktop.",
+    "spriteVersionNumber": 1,
+    "spritesheetPath": "spritesheet.webp"
+  },
+  "atlas": {
+    "format": "WEBP",
+    "webpSubtype": "VP8L lossless",
+    "width": 1536,
+    "height": 1872,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "columns": 8,
+    "rows": 9,
+    "hasAlpha": true,
+    "transparentPixels": 2186844,
+    "hiddenRgbPixels": 0,
+    "minimumUsedCellMarginPx": 8,
+    "chunks": [
+      "VP8L"
+    ],
+    "fileBytes": 1582212
+  },
+  "states": [
+    {
+      "state": "idle",
+      "rowIndex": 0,
+      "usedFrames": 6,
+      "visiblePixelsByFrame": [
+        12176,
+        12281,
+        12341,
+        12333,
+        12320,
+        12301
+      ]
+    },
+    {
+      "state": "running-right",
+      "rowIndex": 1,
+      "usedFrames": 8,
+      "visiblePixelsByFrame": [
+        13319,
+        13281,
+        12926,
+        13537,
+        13158,
+        13215,
+        13836,
+        13366
+      ]
+    },
+    {
+      "state": "running-left",
+      "rowIndex": 2,
+      "usedFrames": 8,
+      "visiblePixelsByFrame": [
+        12613,
+        12349,
+        11740,
+        11993,
+        12597,
+        12237,
+        12199,
+        12349
+      ]
+    },
+    {
+      "state": "waving",
+      "rowIndex": 3,
+      "usedFrames": 4,
+      "visiblePixelsByFrame": [
+        11823,
+        11827,
+        11929,
+        11807
+      ]
+    },
+    {
+      "state": "jumping",
+      "rowIndex": 4,
+      "usedFrames": 5,
+      "visiblePixelsByFrame": [
+        12487,
+        13204,
+        13694,
+        13373,
+        12118
+      ]
+    },
+    {
+      "state": "failed",
+      "rowIndex": 5,
+      "usedFrames": 8,
+      "visiblePixelsByFrame": [
+        12872,
+        12719,
+        12190,
+        10882,
+        8738,
+        9011,
+        11806,
+        12477
+      ]
+    },
+    {
+      "state": "waiting",
+      "rowIndex": 6,
+      "usedFrames": 6,
+      "visiblePixelsByFrame": [
+        11653,
+        11052,
+        11748,
+        11848,
+        11310,
+        11722
+      ]
+    },
+    {
+      "state": "running",
+      "rowIndex": 7,
+      "usedFrames": 6,
+      "visiblePixelsByFrame": [
+        11325,
+        11362,
+        11468,
+        11419,
+        11356,
+        11462
+      ]
+    },
+    {
+      "state": "review",
+      "rowIndex": 8,
+      "usedFrames": 6,
+      "visiblePixelsByFrame": [
+        11591,
+        11474,
+        11572,
+        11635,
+        11523,
+        11604
+      ]
+    }
+  ],
+  "privacy": {
+    "manifestPatterns": "none",
+    "embeddedWebpMetadata": false,
+    "payloadFilesOnly": true
+  },
+  "sha256": {
+    "pet.json": "2848aee07ffc57fe97bc01baabe277962d83d37d97eb1dcf1a1462954902a460",
+    "spritesheet.webp": "cba7fc11fed373503042a8460c667dfe471f0d8e4a78f7deca05f0175541d6a3"
+  }
+}

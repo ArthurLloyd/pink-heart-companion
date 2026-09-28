@@ -1,0 +1,38 @@
+{
+  "expression-reference": {
+    "file": "expression-reference.png",
+    "width": 1448,
+    "height": 1086,
+    "mode": "RGB",
+    "sha256": "51066ca54c5d248fbb3dbf00a8ee46dc89d4818b379e3c744ff76e71144bcc96",
+    "pixelsPreserved": true,
+    "metadataChunks": []
+  },
+  "identity-front": {
+    "file": "identity-front.png",
+    "width": 1086,
+    "height": 1448,
+    "mode": "RGB",
+    "sha256": "547160622947ad4f2b336ba94137b3548b4ad1b082a852d1df30ef5da1842c30",
+    "pixelsPreserved": true,
+    "metadataChunks": []
+  },
+  "identity-reference": {
+    "file": "identity-reference.png",
+    "width": 1448,
+    "height": 1086,
+    "mode": "RGB",
+    "sha256": "a0bd4da07b46377b08c253b85f2c9f0c74b58b3bf5aaa1bb7952794811cd88ea",
+    "pixelsPreserved": true,
+    "metadataChunks": []
+  },
+  "motion-reference": {
+    "file": "motion-reference.png",
+    "width": 1448,
+    "height": 1086,
+    "mode": "RGB",
+    "sha256": "b02dc40849a6bc4bfcc4654e90eae167fcd380531b3e65334a45d0b399b52149",
+    "pixelsPreserved": true,
+    "metadataChunks": []
+  }
+}

@@ -1,0 +1,12 @@
+# Local originals and downloaded third-party material
+/figs/
+/codex-desktop-theme-builder/
+/codex-pet-workspace/
+/.local/
+
+# Local tooling output
+__pycache__/
+*.py[cod]
+.venv/
+Thumbs.db
+.DS_Store

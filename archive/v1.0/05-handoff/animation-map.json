@@ -1,0 +1,149 @@
+{
+  "petId": "pink-heart-companion",
+  "contractVersion": 1,
+  "contractSource": "running Codex Desktop 26.924.2738.0 local loader and renderer",
+  "defaultState": "idle",
+  "atlas": {
+    "file": "spritesheet.webp",
+    "width": 1536,
+    "height": 1872,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "columns": 8,
+    "rows": 9,
+    "sha256": "cba7fc11fed373503042a8460c667dfe471f0d8e4a78f7deca05f0175541d6a3"
+  },
+  "states": {
+    "idle": {
+      "stateName": "idle",
+      "rowIndex": 0,
+      "usedFrames": 6,
+      "durationMsByFrame": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ],
+      "loopBehavior": "continuous"
+    },
+    "running-right": {
+      "stateName": "running-right",
+      "rowIndex": 1,
+      "usedFrames": 8,
+      "durationMsByFrame": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "running-left": {
+      "stateName": "running-left",
+      "rowIndex": 2,
+      "usedFrames": 8,
+      "durationMsByFrame": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "waving": {
+      "stateName": "waving",
+      "rowIndex": 3,
+      "usedFrames": 4,
+      "durationMsByFrame": [
+        140,
+        140,
+        140,
+        280
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "jumping": {
+      "stateName": "jumping",
+      "rowIndex": 4,
+      "usedFrames": 5,
+      "durationMsByFrame": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "failed": {
+      "stateName": "failed",
+      "rowIndex": 5,
+      "usedFrames": 8,
+      "durationMsByFrame": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "waiting": {
+      "stateName": "waiting",
+      "rowIndex": 6,
+      "usedFrames": 6,
+      "durationMsByFrame": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "running": {
+      "stateName": "running",
+      "rowIndex": 7,
+      "usedFrames": 6,
+      "durationMsByFrame": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    },
+    "review": {
+      "stateName": "review",
+      "rowIndex": 8,
+      "usedFrames": 6,
+      "durationMsByFrame": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ],
+      "loopBehavior": "three_cycles_then_slow_idle_loop"
+    }
+  },
+  "lookDirections": null,
+  "reducedMotionBehavior": "first frame of each state"
+}

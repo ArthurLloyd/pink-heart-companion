@@ -1,0 +1,11 @@
+{
+  "contract": "running Codex Desktop V1",
+  "firstInstall": true,
+  "replacement": true,
+  "backup": true,
+  "rollback": true,
+  "stagingCleanup": true,
+  "hashesMatched": true,
+  "realCodexHomeTouched": false,
+  "pass": true
+}
