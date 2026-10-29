@@ -46,4 +46,4 @@ cba7fc11fed373503042a8460c667dfe471f0d8e4a78f7deca05f0175541d6a3  spritesheet.we
 
 Source references, previews, scripts and documentation are excluded from the two-file Codex payload. The Windows ZIP contains only installation scripts, the payload, instructions and a payload checksum list. The portable ZIP contains only the pet directory and its two files. Distribution checksums are generated separately in `SHA256SUMS.txt`.
 
-The redundant V1.0 working archives and intermediate exports were removed from the current checkout during V1.1.0 preparation. The previous committed state remains available in Git history at `dd517aa`; canonical source references and the base character image remain in `source/`.
+Canonical source references and the base character image are maintained in `source/`. Historical production files remain available in Git history.

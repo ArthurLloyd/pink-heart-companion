@@ -39,4 +39,3 @@ the portable ZIP and manual copying; no runtime verification is claimed there.
 
 Repository: https://github.com/ArthurLloyd/pink-heart-companion
 Releases: https://github.com/ArthurLloyd/pink-heart-companion/releases
-The repository is private; downloads require authorized GitHub access.
