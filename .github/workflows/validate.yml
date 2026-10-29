@@ -1,0 +1,30 @@
+name: Validate release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python tools/validate_pet.py release/pink-heart-companion
+      - run: python -m unittest discover -s tests -v
+      - run: python tools/build_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pink-heart-companion-release
+          path: dist/*
+          if-no-files-found: error

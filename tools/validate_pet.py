@@ -1,7 +1,7 @@
 """Validate the current local Codex Desktop V1 pet payload.
 
-The geometry and frame table below were checked against the running
-OpenAI.Codex 26.924.2738.0 app bundle, not the older builder skill.
+The V1 geometry was checked in OpenAI.Codex 26.924.2738.0 and rechecked
+in 26.1023.6123.0. See docs/compatibility.md for evidence and limits.
 """
 
 from __future__ import annotations

@@ -3,6 +3,8 @@
 /codex-desktop-theme-builder/
 /codex-pet-workspace/
 /.local/
+/dist/
+/.build/
 
 # Local tooling output
 __pycache__/

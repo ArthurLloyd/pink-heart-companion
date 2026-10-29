@@ -1,2 +1,2 @@
-# Preserve frozen archive bytes and its SHA-256 manifest on every platform.
+# Preserve approved asset bytes and reproducible build inputs on every platform.
 * -text

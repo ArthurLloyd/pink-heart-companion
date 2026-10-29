@@ -1,13 +1,13 @@
 # Visual Identity Contract
 
-Status: locked for canonical generation. Approval mode: autonomous gated progress.
+Canonical visual reference for future edits. The released asset remains unchanged.
 
 ## Source roles
 
-- `source/identity-front.png`: primary full-body identity and face.
-- `source/identity-reference.png`: front, side, back, costume construction, and palette.
-- `source/expression-reference.png`: expression vocabulary only.
-- `source/motion-reference.png`: motion semantics only; its panels are not animation frames.
+- `source/references/identity-front.png`: primary full-body identity and face.
+- `source/references/identity-reference.png`: front, side, back, costume construction, and palette.
+- `source/references/expression-reference.png`: expression vocabulary only.
+- `source/references/motion-reference.png`: motion semantics only; its panels are not animation frames.
 
 All four images depict the same character. The front illustration and character sheet agree on the stable design; the sheets add detail rather than a competing design.
 
@@ -31,8 +31,10 @@ No text, labels, UI, panel border, dialogue, floating symbols, tears, hearts, st
 
 ## Production contract
 
-- Final installed contract, verified against the running Codex Desktop loader: 192 × 208 cell; 8 columns × 9 rows; 1536 × 1872 V1 atlas. The earlier third-party builder labeled this geometry V2; see `contract/current-codex-contract.md` for the corrected version mapping.
+- Final installed contract, verified against the running Codex Desktop loader: 192 × 208 cell; 8 columns × 9 rows; 1536 × 1872 V1 atlas. The earlier third-party builder labeled this geometry V2; see `docs/compatibility.md` for the corrected version mapping.
 - Row order: idle, running-right, running-left, waving, jumping, failed, waiting, running (active work), review.
 - Chroma key: flat saturated cyan `#00C9D8`. The generated source's small cyan variation was normalized deterministically after confirming foreground separation.
 - Canonical base: one centered, full-body, front-facing character with complete hair, hands, and boots; no crop, text, props, effects, or shadow.
 - Release id: `pink-heart-companion`; display name: `Pink Heart Companion`.
+
+Canonical base image: `source/canonical-base.png`. Reference metadata and file hashes are recorded in `source/reference-index.json`.

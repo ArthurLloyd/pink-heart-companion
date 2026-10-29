@@ -1,0 +1,42 @@
+Pink Heart Companion 1.1.0 — Windows 安装说明 / Installation
+
+1. 安装并登录支持自定义宠物的 Codex 桌面版。
+2. 把 ZIP 完整解压到普通文件夹，不能在压缩包窗口里直接运行。
+3. 双击 install.cmd，无需管理员权限、Python 或联网。
+4. 在 Codex 设置 → Pets / Mini & Pets 中刷新，选择 Pink Heart Companion。
+5. 宠物未显示时使用 Show pet 或输入 /pet；必要时重启 Codex。
+
+默认安装：%USERPROFILE%\.codex\pets\pink-heart-companion
+设置了 CODEX_HOME 时：%CODEX_HOME%\pets\pink-heart-companion
+安装位置必须与运行 Codex 的用户和 Codex home 一致。
+
+卸载：双击 uninstall.cmd，然后在 Codex 中选择其他宠物并刷新。
+两个脚本均只处理本宠物的两个已验证文件。遇到不同内容或额外文件会停止，
+请先检查、移动已有同名目录；不会自动覆盖或生成备份。
+
+高级用法（PowerShell）：
+  .\install.cmd -CodexHome "D:\My Codex Home"
+  .\uninstall.cmd -CodexHome "D:\My Codex Home"
+相对路径会被拒绝。自定义路径卸载时需再次传入相同参数。
+如果系统策略阻止运行脚本，请手动复制 release\pink-heart-companion 整个目录到
+Codex home 的 pets 文件夹。企业策略仍然生效；请遵守电脑管理策略。
+
+English
+Extract the entire ZIP, then double-click install.cmd as your normal user.
+No admin rights, Python, downloads, or additional runtime are needed.
+In Codex, open Settings > Pets (or Mini & Pets), refresh, and choose the pet.
+Use Show pet or /pet if hidden; restart Codex if needed.
+The default is %USERPROFILE%\.codex, overridden by CODEX_HOME or -CodexHome.
+Double-click uninstall.cmd to remove the pet. Modified installations are preserved.
+If scripts are blocked, copy the release\pink-heart-companion folder into the
+active Codex home's pets directory manually.
+
+Compatibility: V1 sprite format, 1536 x 1872 WebP, nine animation states.
+This package supplies pet assets; Codex must already be installed separately.
+The sprites are byte-identical to the previously accepted V1.0 assets.
+Only Windows installation scripts are tested. Other desktop platforms can use
+the portable ZIP and manual copying; no runtime verification is claimed there.
+
+Repository: https://github.com/ArthurLloyd/pink-heart-companion
+Releases: https://github.com/ArthurLloyd/pink-heart-companion/releases
+The repository is private; downloads require authorized GitHub access.
