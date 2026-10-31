@@ -1,26 +1,27 @@
-<h1 align="center">Pink Heart Companion</h1>
+<h1 align="center">邓紫棋拟人 Codex 桌宠</h1>
 
-<p align="center">适用于 Codex 桌面版的粉色系 Q 版动画宠物。</p>
+<p align="center">G.E.M. Codex Pet · 以邓紫棋（G.E.M.）为灵感的 Q 版动画桌宠，由粉丝制作。</p>
 
 <p align="center">
-  <a href="https://github.com/ArthurLloyd/pink-heart-companion/actions/workflows/validate.yml"><img src="https://github.com/ArthurLloyd/pink-heart-companion/actions/workflows/validate.yml/badge.svg" alt="Validate release"></a>
+  <a href="https://github.com/ArthurLloyd/gem-codex-pet/actions/workflows/validate.yml"><img src="https://github.com/ArthurLloyd/gem-codex-pet/actions/workflows/validate.yml/badge.svg" alt="Validate release"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ArthurLloyd/pink-heart-companion/releases/latest">下载</a> ·
+  <a href="https://github.com/ArthurLloyd/gem-codex-pet/releases/latest">下载</a> ·
   <a href="#安装">安装</a> ·
   <a href="docs/compatibility.md">兼容性</a> ·
   <a href="CHANGELOG.md">更新记录</a> ·
-  <a href="https://github.com/ArthurLloyd/pink-heart-companion/issues">问题反馈</a>
+  <a href="https://github.com/ArthurLloyd/gem-codex-pet/issues">问题反馈</a>
 </p>
 
 <p align="center">
-  <img src="assets/idle.gif" width="192" height="208" alt="待机动画：呼吸与眨眼">
-  <img src="assets/waving.gif" width="192" height="208" alt="挥手动画">
+  <img src="assets/idle.gif" width="192" height="208" alt="邓紫棋拟人桌宠的待机动画：呼吸与眨眼">
+  <img src="assets/waving.gif" width="192" height="208" alt="邓紫棋拟人桌宠的挥手动画">
 </p>
 
 ## 特性
 
+- **邓紫棋主题**：以邓紫棋（G.E.M.）为灵感制作的粉色系 Q 版角色与动画。
 - **九种动画**：待机、左右跑动、挥手、跳跃、失败、等待、工作和检查。
 - **离线安装**：Windows 完整解压后双击安装，无需管理员权限、Python 或额外运行时。
 - **用户级安装**：支持默认 Codex home、`CODEX_HOME` 和自定义绝对路径。
@@ -35,10 +36,12 @@
 
 ## 安装
 
+当前 v1.1.0 发行包在 Codex 中仍显示为 **Pink Heart Companion**，文件名和安装目录也沿用 `pink-heart-companion`，以兼容已有安装。仓库名与 README 展示名称已更新为邓紫棋主题。
+
 ### Windows
 
 1. 安装并登录支持自定义宠物的 **Codex 桌面版**。
-2. 从 [Release](https://github.com/ArthurLloyd/pink-heart-companion/releases/latest) 下载 `pink-heart-companion-v1.1.0-windows.zip`，**完整解压**到普通文件夹。
+2. 从 [Release](https://github.com/ArthurLloyd/gem-codex-pet/releases/latest) 下载 `pink-heart-companion-v1.1.0-windows.zip`，**完整解压**到普通文件夹。
 3. 双击 `install.cmd`，按提示完成安装。无需管理员权限、Python 或额外软件；安装过程完全离线。
 4. 打开 Codex **设置 → Pets（或 Mini & Pets）**，点击 **Refresh / 刷新**，选择 **Pink Heart Companion**。
 5. 未显示时使用 **Show pet** 或输入 `/pet`；没有刷新按钮时重启 Codex。
@@ -142,10 +145,12 @@ V1.1.0 改进的是分发、安装、文档与项目结构，宠物资源与已�
 
 ## 反馈与贡献
 
-欢迎通过 [Issues](https://github.com/ArthurLloyd/pink-heart-companion/issues) 反馈问题。请提供操作系统、Codex 版本、安装方式、复现步骤和错误信息，并在提交日志或截图前移除个人路径、账号信息和凭据。
+欢迎通过 [Issues](https://github.com/ArthurLloyd/gem-codex-pet/issues) 反馈问题。请提供操作系统、Codex 版本、安装方式、复现步骤和错误信息，并在提交日志或截图前移除个人路径、账号信息和凭据。
 
 修改脚本或资源后，请运行上述校验和测试；变更资源格式时同步更新兼容性文档。
 
 ## 许可
+
+本项目为粉丝创作的桌宠，不代表邓紫棋本人或其团队。
 
 本仓库暂未指定开源许可证。

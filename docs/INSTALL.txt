@@ -1,4 +1,6 @@
-Pink Heart Companion 1.1.0 — Windows 安装说明 / Installation
+G.E.M. Codex Pet（邓紫棋拟人 Codex 桌宠）— Windows 安装说明 / Installation
+
+v1.1.0 资源在 Codex 中显示为 Pink Heart Companion，安装目录沿用原名。
 
 1. 安装并登录支持自定义宠物的 Codex 桌面版。
 2. 把 ZIP 完整解压到普通文件夹，不能在压缩包窗口里直接运行。
@@ -37,5 +39,5 @@ The sprites are byte-identical to the previously accepted V1.0 assets.
 Only Windows installation scripts are tested. Other desktop platforms can use
 the portable ZIP and manual copying; no runtime verification is claimed there.
 
-Repository: https://github.com/ArthurLloyd/pink-heart-companion
-Releases: https://github.com/ArthurLloyd/pink-heart-companion/releases
+Repository: https://github.com/ArthurLloyd/gem-codex-pet
+Releases: https://github.com/ArthurLloyd/gem-codex-pet/releases

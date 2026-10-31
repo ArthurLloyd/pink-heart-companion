@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Rename the repository to `gem-codex-pet` and introduce the G.E.M. (邓紫棋) fan-made Codex pet theme in the README.
+- Update repository, download, workflow badge and issue links; preserve the existing pet ID, installed display name and v1.1.0 asset filenames for compatibility.
+
 ## 1.1.0 — 2026-10-29
 
 - Add offline, double-click Windows installation and uninstallation with no administrator or Python requirement.
